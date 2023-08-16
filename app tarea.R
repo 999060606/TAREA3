@@ -6,7 +6,7 @@ ui <- fluidPage(
   
   sidebarLayout(
     sidebarPanel( 
-      width = 4,
+      width = 5,
       br(),
       textInput(inputId = "nombre", 
                 label = "Nombre del evento:"),
